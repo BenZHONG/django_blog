@@ -23,7 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ak8r*dlcf5ii7%w_n1vk33a^!6x!)4jp6yv9@_kuw4=jz4x%gp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = False: admin的css会失效
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
