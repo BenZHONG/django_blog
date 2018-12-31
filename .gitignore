@@ -1,6 +1,6 @@
 ll_env/
 __pycache__/
 *.sqlite3
-
+.gitignore
 fabfile.py 
 fabfile.pyc
